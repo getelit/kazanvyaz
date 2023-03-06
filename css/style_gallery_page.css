@@ -1,0 +1,223 @@
+	.fourth_row .item {
+		height: 450px;
+	}
+
+	.row {
+		width: 80%;
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+
+	.mini_suggestions_mobile,
+	.menu_mobile,
+	.gallery_mobile {
+		display: none;
+	}
+
+/*==========================PAD VERSION==============================*/
+@media screen and (min-width: 768px) and (max-width: 1099px) {
+
+	.mini_suggestions_mobile,
+	.menu_mobile,
+	.gallery_mobile {
+		display: none;
+	}
+
+	img {
+		height: 80%;
+	}
+
+	.row {
+		min-width: 692px;
+	}
+
+	.item a p {
+		max-width: 205px;
+		font-size: 18px;
+	}
+
+	.container {
+		max-width: 1000px;
+	}
+
+	.nav button {
+		font-size: 28px;
+	}
+
+	#phone_work_number,
+	#phone_home_number {
+		font-size: 30px;
+	}
+
+	.suggestions {
+		padding: 0px 25px;
+	}
+
+	.item {
+		max-width: 243px;
+	}
+
+	.item p {
+		max-width: 241px;
+	}
+
+	.portrait_paragraph {
+		padding: 0px 25px;
+	}
+
+	.item_margin {
+		margin: 0px 10px;
+	}
+
+	.mini-suggestions {
+		padding: 0px 25px;
+	}
+
+	.mini-box {
+		height: 57px;
+		font-size: 24px;
+	}
+
+	.mini-box:nth-child(1),
+	.mini-box:nth-child(2) {
+		margin-right: 10px;
+	}
+
+	.logo {
+		display: none;
+	}
+
+	#vk_footer_text,
+	#vk_header_text {
+		font-size: 28px;
+	}
+
+	footer .numbers {
+		font-size: 28px;
+	}
+
+	.footer_container {
+		padding: 0px 25px;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+	
+	.logo {
+		display: none;
+	}
+
+	.menu_contacts_text {
+		display: none;
+	}
+
+	.footer_container {
+		max-width: 84%;
+	}
+
+	.vk_logo_white {
+		width: 35px;
+		height: 35px;
+	}
+
+	.mini-suggestions {
+		display: none;
+	}
+
+	.mini_suggestions_mobile,
+	.menu_mobile,
+	.gallery_mobile {
+		display: block;
+	}
+
+	.vk_logo_white {
+		margin: 0;
+	}
+
+	#vk_footer_text {
+		display: none;
+	}
+
+	.title {
+		font-size: 27px;
+		margin: 14px 0px;
+	}
+
+	#phone_work_number,
+	#phone_home_number {
+		font-size: 23px;
+	}
+
+	header .text {
+		font-size: 46px;
+	}
+
+	footer .numbers {
+		font-size: 25px;
+	}
+
+	footer .phone_logo_white {
+		margin-right: 8px;
+		width: 20px;
+	}
+
+	.nav {
+		margin-bottom: 10px;
+	}
+
+	.phone_logo {
+		margin-right: 6px;
+	}
+
+	#vk_header_text {
+		display: none;
+	}
+
+	#vk_logo_header {
+		height: 35px;
+		width: 35px;
+		margin-right: 8px;
+	}
+
+	.gallery_all {
+		display: none;
+	}
+
+	.mini_suggestions_mobile .mini-box {
+		margin: 0px auto;
+		width: 90%;
+		font-size: 23px;
+	}
+
+	.mini_suggestions_mobile .mini-box:first-child {
+		margin-bottom: 10px;
+	}
+
+	.mini_suggestions_mobile .mini-box:last-child {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.gallery_mobile {
+		padding: 7px 0px;
+		margin: 10px 0px;
+		border-radius: 10px;
+		background-color: #f8f1db;
+	}
+
+	.gallery_mobile .item {
+		margin: 15px auto;
+		overflow: hidden;
+		/*height: 350px;*/
+	}
+	
+	.gallery_mobile .item:last-child {
+		margin: 0px auto;
+	}
+
+	img {
+		/*height: 100%;*/
+	}
+
+}
